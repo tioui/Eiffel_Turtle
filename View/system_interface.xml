@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><application xsi="http://www.w3.org/1999/XMLSchema-instance">
+ <item type="Constants">
+ </item>
+ <item type="EV_TITLED_WINDOW">
+  <Internal_properties>
+   <id>1</id>
+   <name>turtle_window</name>
+   <Expanded>1</Expanded>
+   <Is_root_window>True</Is_root_window>
+  </Internal_properties>
+  <EV_COLORIZABLE>
+  </EV_COLORIZABLE>
+  <EV_SENSITIVE>
+  </EV_SENSITIVE>
+  <EV_WIDGET>
+   <Minimum_width>640</Minimum_width>
+   <Minimum_height>480</Minimum_height>
+  </EV_WIDGET>
+  <EV_WINDOW>
+   <Title>Display window</Title>
+  </EV_WINDOW>
+  <EV_PIXMAPABLE>
+  </EV_PIXMAPABLE>
+  <EV_CONTAINER>
+  </EV_CONTAINER>
+  <item type="EV_MENU_BAR">
+   <Internal_properties>
+    <id>9</id>
+    <name>mb_menu</name>
+    <Expanded>1</Expanded>
+   </Internal_properties>
+   <item type="EV_MENU">
+    <Internal_properties>
+     <id>8</id>
+     <name>m_file</name>
+     <Expanded>1</Expanded>
+    </Internal_properties>
+    <EV_SENSITIVE>
+    </EV_SENSITIVE>
+    <EV_TEXTABLE>
+     <Text>File</Text>
+    </EV_TEXTABLE>
+    <EV_PIXMAPABLE>
+    </EV_PIXMAPABLE>
+    <item type="EV_MENU_ITEM">
+     <Internal_properties>
+      <id>2</id>
+      <name>mi_save</name>
+      <Expanded>0</Expanded>
+     </Internal_properties>
+     <EV_SENSITIVE>
+     </EV_SENSITIVE>
+     <EV_TEXTABLE>
+      <Text>Save as image</Text>
+     </EV_TEXTABLE>
+     <EV_PIXMAPABLE>
+     </EV_PIXMAPABLE>
+     <Events>
+      <Event>select_actions EV_MENU_ITEM_ACTION_SEQUENCES select_save_item</Event>
+     </Events>
+    </item>
+    <item type="EV_MENU_ITEM">
+     <Internal_properties>
+      <id>3</id>
+      <name>mi_save_floor</name>
+      <Expanded>0</Expanded>
+     </Internal_properties>
+     <EV_SENSITIVE>
+     </EV_SENSITIVE>
+     <EV_TEXTABLE>
+      <Text>Save floor as image</Text>
+     </EV_TEXTABLE>
+     <EV_PIXMAPABLE>
+     </EV_PIXMAPABLE>
+     <Events>
+      <Event>select_actions EV_MENU_ITEM_ACTION_SEQUENCES select_save_floor_item</Event>
+     </Events>
+    </item>
+    <item type="EV_MENU_ITEM">
+     <Internal_properties>
+      <id>4</id>
+      <name>mi_quit</name>
+      <Expanded>0</Expanded>
+     </Internal_properties>
+     <EV_SENSITIVE>
+     </EV_SENSITIVE>
+     <EV_TEXTABLE>
+      <Text>Quit</Text>
+     </EV_TEXTABLE>
+     <EV_PIXMAPABLE>
+     </EV_PIXMAPABLE>
+     <Events>
+      <Event>select_actions EV_MENU_ITEM_ACTION_SEQUENCES select_quit_item</Event>
+     </Events>
+    </item>
+   </item>
+   <item type="EV_MENU">
+    <Internal_properties>
+     <id>7</id>
+     <name>m_help</name>
+     <Expanded>1</Expanded>
+    </Internal_properties>
+    <EV_SENSITIVE>
+    </EV_SENSITIVE>
+    <EV_TEXTABLE>
+     <Text>Help</Text>
+    </EV_TEXTABLE>
+    <EV_PIXMAPABLE>
+    </EV_PIXMAPABLE>
+    <item type="EV_MENU_ITEM">
+     <Internal_properties>
+      <id>5</id>
+      <name>mi_tutorial</name>
+      <Expanded>0</Expanded>
+     </Internal_properties>
+     <EV_SENSITIVE>
+     </EV_SENSITIVE>
+     <EV_TEXTABLE>
+      <Text>Tutorial</Text>
+     </EV_TEXTABLE>
+     <EV_PIXMAPABLE>
+     </EV_PIXMAPABLE>
+     <Events>
+      <Event>select_actions EV_MENU_ITEM_ACTION_SEQUENCES select_tutorial_item</Event>
+     </Events>
+    </item>
+    <item type="EV_MENU_ITEM">
+     <Internal_properties>
+      <id>6</id>
+      <name>mi_about</name>
+      <Expanded>0</Expanded>
+     </Internal_properties>
+     <EV_SENSITIVE>
+     </EV_SENSITIVE>
+     <EV_TEXTABLE>
+      <Text>About</Text>
+     </EV_TEXTABLE>
+     <EV_PIXMAPABLE>
+     </EV_PIXMAPABLE>
+     <Events>
+      <Event>select_actions EV_MENU_ITEM_ACTION_SEQUENCES select_about_item</Event>
+     </Events>
+    </item>
+   </item>
+  </item>
+  <item type="EV_VERTICAL_BOX">
+   <Internal_properties>
+    <id>12</id>
+    <name>verticat_layout</name>
+    <Expanded>1</Expanded>
+   </Internal_properties>
+   <EV_COLORIZABLE>
+   </EV_COLORIZABLE>
+   <EV_SENSITIVE>
+   </EV_SENSITIVE>
+   <EV_WIDGET>
+   </EV_WIDGET>
+   <EV_BOX>
+    <Is_item_expanded>1</Is_item_expanded>
+   </EV_BOX>
+   <EV_PIXMAPABLE>
+   </EV_PIXMAPABLE>
+   <EV_CONTAINER>
+   </EV_CONTAINER>
+   <item type="EV_HORIZONTAL_BOX">
+    <Internal_properties>
+     <id>11</id>
+     <name>horizontal_layout</name>
+     <Expanded>1</Expanded>
+    </Internal_properties>
+    <EV_COLORIZABLE>
+    </EV_COLORIZABLE>
+    <EV_SENSITIVE>
+    </EV_SENSITIVE>
+    <EV_WIDGET>
+    </EV_WIDGET>
+    <EV_BOX>
+     <Is_item_expanded>1</Is_item_expanded>
+    </EV_BOX>
+    <EV_PIXMAPABLE>
+    </EV_PIXMAPABLE>
+    <EV_CONTAINER>
+    </EV_CONTAINER>
+    <item type="EV_DRAWING_AREA">
+     <Internal_properties>
+      <id>10</id>
+      <name>turtle_area</name>
+      <Expanded>0</Expanded>
+     </Internal_properties>
+     <EV_COLORIZABLE>
+     </EV_COLORIZABLE>
+     <EV_FONTABLE>
+     </EV_FONTABLE>
+     <EV_SENSITIVE>
+     </EV_SENSITIVE>
+     <EV_TOOLTIPABLE>
+     </EV_TOOLTIPABLE>
+     <EV_WIDGET>
+     </EV_WIDGET>
+    </item>
+   </item>
+  </item>
+ </item>
+</application>

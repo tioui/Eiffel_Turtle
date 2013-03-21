@@ -1,0 +1,2 @@
+for i in $(seq -f "%03g" 1 360); do convert -gravity center  -rotate $i -matte -background 'rgba(0,0,0,0)' "turtle32.png" -extent 38x38 "turtle32-$i.png"; done
+convert -append turtle32-*.png test.png
